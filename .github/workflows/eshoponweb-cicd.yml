@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: cloud-shell-storage-eastus
-  LOCATION: eastasia
+  LOCATION: eastus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: 55005257-c6d5-4ddb-9c25-3c68caab029f
   WEBAPP-NAME: Learning-az400-webapp-gitaction
